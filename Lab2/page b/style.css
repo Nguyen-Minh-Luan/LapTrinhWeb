@@ -57,7 +57,6 @@ a {
 
 /* ---------------------------------------------------------------------- */
 #section_header_1 {
-    background-color: blanchedalmond;
     height: 100px;
 }
 
@@ -101,51 +100,224 @@ a {
     right: -60px;
     top: -5px;
 }
-#section_header_1 .bottom-icons i{
-   font-size: 30px;
-   color: rgb(127, 127, 127);
+
+#section_header_1 .bottom-icons i {
+    font-size: 30px;
+    color: rgb(127, 127, 127);
 }
+
 /* ------------------------------------------------------------------------------------------- */
-#section_slider  {
+#section_slider {
     background-color: rgb(224, 224, 224);
 }
-#section_slider .carousel-inner{
+
+#section_slider .carousel-inner {
     overflow: auto;
     display: flex;
     border-radius: 10px;
-    
-    
+
+
 }
-#section_slider .carousel-inner .item img{
+
+#section_slider .carousel-inner .item img {
     position: relative;
     top: 50px;
     width: 1200px;
     border-radius: 10px;
-    
+
 }
-#section_slider .carousel-inner .editContent{
+
+#section_slider .carousel-inner .editContent {
     position: relative;
     bottom: 110px;
     margin: 20px;
     color: white;
 }
+
 /* ------------------------------------------------------------------------------ */
-#section_gym_4{
- background-color: antiquewhite;
-}
-#section_gym_4 .top_padding{
+#section_gym_4 .top_padding {
+    padding-top: 90px;
+    padding-bottom: 30px;
     margin-right: 10px;
     width: 1200px;
-    display : flex
-
-
+    display: flex
 }
-#section_gym_4 .top_padding .logo_style{
-    border-radius: 5px;
+
+#section_gym_4 .top_padding .logo_style {
+    border-radius: 118px;
+    height: 15rem;
+}
+#section_gym_4 .top_padding .img_gym_st {
+}
+#section_gym_4 .top_padding .gym_st .editContent {
+    font-size: 25px;
+    font-weight: bold;
 }
 #section_gym_4 .top_padding .column {
-    margin-right: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
-#section_gym_4 .top_padding .column .part_st{
+#section_gym_4 .top_padding .gym_text {
+    color: rgb(127, 127, 127);
+    width: 17rem;
+}
+#section_gym_4 .top_padding .link_3_btn {
+    display: inline-block;
+    background-color: rgb(255,136,51);
+    height: 45px;
+    width: 125px;
+    align-content: center;
+    border-radius: 5px;
+
+}
+#section_gym_4 .top_padding a {
+    color: white;
+    text-decoration: none;
+}
+#section_gym_4 .top_padding .column .part_st {
     text-align: center;
 }
+/* <!-- ------------------------------------------------------- */
+#section_intro_title{
+    background-color: rgb(224, 224, 224);
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+#section_intro_title .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#section_intro_title .column {
+    border: rgb(221,221,221) 3px solid;
+    border-radius: 4px;
+    background-color: white;
+    height: 450px;
+    width: 400px;
+}
+#section_intro_title p {
+    text-align: center;
+}
+#section_intro_title .big_title {
+    font-size: 45px;
+    margin-bottom: -8px;
+    color: rgb(45,192,232);
+
+}
+#section_intro_title {
+    font-size: 20px;
+    color: rgb(127, 127, 127);
+    
+}
+#section_intro_title .flat_pricing_list {
+    text-align: center;
+    margin-left: -40px;
+    color: rgb(127, 127, 127);
+}
+#section_intro_title .flat_pricing_list .pix_text{
+    margin-bottom: 38px;
+}
+#section_intro_title .column .margin_bottom_10{
+    color: rgb(247,120,37);
+}
+#section_intro_title .column .orange_bg{
+    background-color: rgb(247,120,37);
+}
+#section_intro_title .active_bg_open{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgb(45,192,232);
+    height: 65px;
+    width: 215px;
+    margin-left: 70px;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+/* ----------------------------------------------------------------------- */
+#section_party_3 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: rgb(25,25,25);
+}
+#section_party_3 .container{
+    border: rgb(37, 37, 37) 3px solid ;
+    background-color: rgb(21,21,21);
+    height: 530px;
+    width: 561px;
+}
+#section_party_3 .headtext_style{
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+#section_party_3 .container .pix_builder_bg{
+    text-align: center;
+}
+#section_party_3 .headtext_style .pix_text{
+    color: white;
+    font-size: 30px;
+}
+
+#section_party_3 .text_input .subtext_style{
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+    width: 450px;
+    color: rgb(127, 127, 127);
+    font-size: 24px
+
+}
+#section_party_3 .contact_st input {
+   border-radius: 5px;
+   height: 64px;
+   width: 510px;
+   margin-bottom: 20px;
+}
+#section_party_3 .contact_st input::placeholder{
+   font-size: 20px;
+ }
+#section_party_3 .contact_st input:focus{
+    color: black;
+    font-size: 20px;
+ }
+ #submit_btn_15{
+    background-color: rgb(34,112,227);
+    color: white;
+    width: 515px;
+    height: 64px;
+    font-size: 22px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 29px 86px -49px rgba(255,255,255,0.74);
+-moz-box-shadow: inset 0px 29px 86px -49px rgba(255,255,255,0.74);
+box-shadow: inset 0px 29px 86px -49px rgba(255,255,255,0.74);
+ }
+ /* ----------------------------------------------------------- */
+ #section_party_4{
+    height: 90px;
+    background-color: rgb(21,21,21);
+    color: rgb(164, 164, 164);
+    font-size: 20px;
+    align-content: center;
+ }
+ #section_party_4 .container{
+    width: 1200px;
+ }
+#section_party_4 .sixteen{
+    display: flex;
+ }
+ #section_party_4 .sixteen .alpha{
+    left: auto;
+    margin-right: 70px;
+ }
+ #section_party_4 .alpha .pixfort_st{
+    color: rgb(28, 143, 245);
+    font-weight: bold;
+ }
+ #section_party_4 .likes_st{
+    position: relative;
+    top: -19px;
+    right: -100px;
+ }
