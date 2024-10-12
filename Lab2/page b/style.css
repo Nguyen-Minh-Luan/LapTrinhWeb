@@ -1,0 +1,151 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, tahoma;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+}
+
+#section_text_2 {
+    background-color: rgb(243, 243, 243);
+    padding-top: 29px;
+    padding-bottom: 41px;
+}
+
+#section_text_2 .container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#section_text_2 .alpha {
+    margin-top: 10px;
+}
+
+#section_text_2 .alpha .extra_small_padding {
+    height: 35px;
+
+}
+
+#section_text_2 .omega .pix_button {
+    display: inline-block;
+    font-family: sans-serif, tahoma;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(247, 120, 37);
+    border-radius: 5px;
+    width: 156px;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------------------- */
+#section_header_1 {
+    background-color: blanchedalmond;
+    height: 100px;
+}
+
+#section_header_1 .container {
+    margin-left: 16.3rem;
+}
+
+#section_header_1 .containerss {}
+
+#section_header_1 .navbar-header {
+    display: none;
+}
+
+#navbar-collapse-02 {
+    float: left;
+    width: 50%;
+}
+
+#section_header_1 .navbar-collapse ul {
+    display: flex;
+    margin-top: 36px;
+}
+
+#section_header_1 .navbar-collapse a {
+    margin-left: 40px;
+    font-size: 20px;
+    color: rgb(127, 127, 127);
+    font-weight: bold;
+}
+
+#section_header_1 .right_socials {
+    float: right;
+    margin-top: 23px;
+}
+
+#section_header_1 .bottom-icons {
+    display: flex;
+    gap: 23px;
+    width: 50%;
+    position: relative;
+    right: -60px;
+    top: -5px;
+}
+#section_header_1 .bottom-icons i{
+   font-size: 30px;
+   color: rgb(127, 127, 127);
+}
+/* ------------------------------------------------------------------------------------------- */
+#section_slider  {
+    background-color: rgb(224, 224, 224);
+}
+#section_slider .carousel-inner{
+    overflow: auto;
+    display: flex;
+    border-radius: 10px;
+    
+    
+}
+#section_slider .carousel-inner .item img{
+    position: relative;
+    top: 50px;
+    width: 1200px;
+    border-radius: 10px;
+    
+}
+#section_slider .carousel-inner .editContent{
+    position: relative;
+    bottom: 110px;
+    margin: 20px;
+    color: white;
+}
+/* ------------------------------------------------------------------------------ */
+#section_gym_4{
+ background-color: antiquewhite;
+}
+#section_gym_4 .top_padding{
+    margin-right: 10px;
+    width: 1200px;
+    display : flex
+
+
+}
+#section_gym_4 .top_padding .logo_style{
+    border-radius: 5px;
+}
+#section_gym_4 .top_padding .column {
+    margin-right: 50px;
+}
+#section_gym_4 .top_padding .column .part_st{
+    text-align: center;
+}

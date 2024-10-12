@@ -1,1 +1,272 @@
-*{}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#section_normal_1{
+    height: 71px;
+    border-bottom: rgb(240, 240, 240) 3px solid;
+}
+#section_normal_1 .sixteen{
+    display: flex;
+}
+#section_normal_1 .alpha{
+    position: relative;
+    margin-top: 15px;
+    margin-right: auto;
+}
+#section_normal_1 .container{
+    margin-left: 320px;
+    margin-right: 280px;
+}
+#section_normal_1 .omega .htext_style{
+    color: #B0B0B0;
+    margin-right: 18px;
+    margin-top: 7px;
+}
+
+#section_normal_1 .omega{
+    display: flex;
+    margin-top: 18px;
+}
+#section_normal_1 .omega > .social_button{
+    margin-right: 8px;
+}
+/*----------BODY----------*/
+#section_normal_4_2{
+    background-color: rgb(51, 51, 51);
+}
+
+#section_normal_4_2 .sixteen{
+    display: flex;
+    margin-left: 320px;
+    margin-right: 356px;
+    width: 890px;
+}
+
+#section_normal_4_2 .alpha{
+    margin-top: 50px;
+    margin-bottom: 55px;
+    margin-right: 32px;
+}
+#section_normal_4_2 .omega{
+    margin-top: 56px;
+    font-family: sans-serif,Tahoma;
+}
+
+/*GET FREE SUPPORT*/
+#section_normal_4_2 .blue_text{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(45, 192, 232);
+}
+/*Get The Most Amazing Builder*/
+#section_normal_4_2 .big_title{
+    width: 450px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+#section_normal_4_2 .light_gray{
+    line-height: 23px;
+    word-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: rgb(153, 153, 153);
+}
+#section_normal_4_2 .omega .pix_button{
+    border-radius: 2px;
+    border-bottom: rgb(36, 154, 186) 4px solid;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color:rgb(45, 192, 232);
+    text-decoration: none;
+    padding: 13px 21px 13px 19px;
+}
+#section_normal_4_2 .omega .pi{
+    width: 10000px;
+    height: 1000px;
+}
+/*--------------------------------------------------------------*/
+.container{
+    font-family: sans-serif;
+}
+#section_normal_6{
+    background-color: rgb(238, 238, 238);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: rgb(221,221,221) 3px solid;
+}
+
+/*What our awesome clients say*/
+#section_normal_6 .L1_style{
+    color: rgb(105, 105, 105);
+    display: block;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+/*great words from great people*/
+#section_normal_6 .L2_style{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #B0B0B0;  
+    font-size: 12px;                
+}
+.container2{
+    display: flex;
+    /* border: black 1px solid; */
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+/* hình 1 */
+#section_normal_6 .alpha{
+    background-color:white;
+    margin-right: 20px;
+    border-radius: 5px;
+    height: 140px;
+    width: 573px;
+    justify-content: center;
+    align-content: center;
+    border-bottom: rgb(221,221,221) 3px solid;
+}#section_normal_6 .alpha .box_1{
+    border-radius: 5px;
+    display: flex;
+}
+#section_normal_6 .alpha .b_style{
+    background-color: rgb(230, 230, 230);
+    border-bottom: rgb(221,221,221) 3px solid;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 140px;
+    justify-content: center;
+    align-content: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#section_normal_6 .alpha .b_style .logo_style{
+    border-radius: 50%;
+}
+#section_normal_6 .alpha .txt_style{
+    justify-content: center;
+    align-content: center;
+    margin-left: 10px;
+    color: #686868;  
+    font-size: 15px;
+}
+#section_normal_6 .alpha .txt_style .stars_span{
+    display: block;
+    margin-top: 18px;
+}
+#section_normal_6 .alpha .txt_style .pix_text{
+    color: rgb(95, 166, 252);
+}
+/* hình 2 */
+#section_normal_6 .omega .pix_builder_bg{
+    display: flex;
+}
+#section_normal_6 .omega{
+    border-bottom: rgb(221,221,221) 3px solid;
+    margin-left: 20px;
+    background-color:white;
+    display: inline-block;
+    height: 140px;
+    width: 573px;
+    border-radius: 5px;
+}
+#section_normal_6 .omega .b_style{
+    background-color: rgb(230, 230, 230);
+    border-bottom: rgb(221,221,221) 3px solid;
+    height: 140px;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: center;
+    align-content: center;
+    display: inline-block;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#section_normal_6 .omega .b_style .logo_style{
+    background-color:white;
+    border-radius: 50%;
+}
+#section_normal_6 .omega .txt_style{
+    justify-content: center;
+    align-content: center;
+    margin-left: 10px;
+    color: #686868;  
+    font-size: 15px; 
+}
+#section_normal_6 .omega .txt_style .stars_span{
+    display: block;
+    margin-top: 18px;
+}
+#section_normal_6 .omega .txt_style .pix_text{
+    color: rgb(95, 166, 252);
+}
+/* ----------------------------------------------------------------------------- */
+#section_agency_5 .foot_st{
+    /* background-color: #B0B0B0; */
+    text-align: center;
+}
+#section_agency_5 .f1_style{
+    color: rgb(78, 132, 88);
+    font-size: 21px;
+    margin-top: 50px;
+}
+#section_agency_5 .f2_style{
+    color: #686868;
+    font-size: 15px;
+    margin-top: 23px;
+    display: inline-block;
+    width: 500px;
+}
+#section_agency_5 .second_link .get_2_btn{
+    margin-top: 23px;
+    border: rgb(78, 132, 88) 3px solid;
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: bold;
+    padding : 10px 15px 10px 15px
+    
+}
+#section_agency_5 .second_link .slow_fade{
+    /* border: rgb(78, 132, 88) 3px solid; */
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(78, 132, 88);
+    
+}
+#section_agency_5 .rights_st{
+    margin-top: 35px;
+}
+#section_agency_5 .rights_st .pix_text{
+    color: #686868;
+    font-size: 14px;
+}
+#section_agency_5 .editContent2 .rights_st{
+    color: #686868;
+    font-size: 14px;
+}
+#section_agency_5 .editContent2 .pixfort_st{
+    font-weight: bold;
+    color: rgb(78, 132, 88);
+    font-size: 14px;
+}
+#section_agency_5 .pix_builder_bg .center_text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+

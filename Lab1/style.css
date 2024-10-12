@@ -1,0 +1,57 @@
+
+.Header{
+    background-color: bisque;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    height: 70px;
+    padding-top: 2%;
+    border: black 2px solid;
+}
+.Navigation{
+    background-color: rgb(241, 87, 87);
+    text-align:center;
+    font-size: xx-large;
+    font-weight: bold;
+    height: 70px;
+    padding-top: 2%;
+    border: black 2px solid;
+}
+/* .container2{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    height: 200px;
+} */
+.Index{
+    background-color: cadetblue;
+    position: absolute;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    height: 120px;
+    width: 200px;
+    padding-top: 5%;
+    border: black 2px solid;
+    
+}
+.Content{
+    background-color: rgb(254, 133, 47);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    height: 120px;
+    padding-top: 5%;
+    border: black 2px solid;
+
+}
+.Footer{
+    background-color: rgb(200, 198, 196);
+    text-align: center ;
+    font-size: xx-large;
+    font-weight: bold;
+    height: 70px;
+    padding-top: 2%;
+    border: black 2px solid;
+    
+}
