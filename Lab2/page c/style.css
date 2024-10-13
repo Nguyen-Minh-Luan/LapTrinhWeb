@@ -73,3 +73,10 @@ a{
 #section_university_5{
     background-color: rgb(160, 160, 160);
 }
+#section_university_5 .container{
+    margin-left: auto;
+    margin-right: auto;
+}
+#section_university_5 .container .sixteen{
+    display: flex;
+}
