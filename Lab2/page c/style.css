@@ -1,0 +1,75 @@
+html , body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif,tahoma;
+}
+.container{
+    width: 1200px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* -------------------------------------------------------- */
+#section_header_2_dark{
+    background-color: rgb(51,51,51);
+    height: 96px;
+    
+}
+#section_header_2_dark .container{
+    margin-left: 450px;
+}
+#section_header_2_dark .containerss{
+    display: flex;
+}
+#section_header_2_dark .navbar-header img{
+    height: 35px;
+}
+#section_header_2_dark .containerss .navbar-header{
+    margin-top: 25px;
+}
+#section_header_2_dark #navbar-collapse-02 a{
+    color: rgb(204,204,204);
+}
+#section_header_2_dark #navbar-collapse-02 .navbar-right{
+    display: flex;
+    margin-left: 350px;
+    gap: 43px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 32px;
+}
+
+#section_header_2_dark #navbar-collapse-02 .icon-item{
+    margin-right: -20px;
+}
+#section_header_2_dark #navbar-collapse-02 .text_span{
+    color: rgb(255,204,51);
+}
+/* ------------------------------------------------------------------- */
+#section_pix_4{
+    background-color: antiquewhite;
+}
+#section_pix_4 .mask .section_video{
+
+    position :absolute;
+}
+#section_pix_4 .mask .section_video{
+    display: inline-block;
+    margin-left: 100px;
+}
+#section_pix_4 .mask .bgvid source{
+    display: inline-block;
+    margin-left: 100px;
+}
+#section_pix_4 .clearfix{
+    position: relative;
+}
+/* ------------------------------------------------------------------- */
+#section_university_5{
+    background-color: rgb(160, 160, 160);
+}
