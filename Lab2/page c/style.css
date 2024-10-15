@@ -80,3 +80,34 @@ a{
 #section_university_5 .container .sixteen{
     display: flex;
 }
+#section_university_5 .alpha .psingle_item{
+    display: flex;
+}
+#section_university_5 .alpha .title_st{
+    font-size: 20px;
+    margin-bottom: 5px;
+    /*font-weight: bold;*/
+}
+#section_university_5 .alpha .subject_st{
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(189,189,189);
+    width: 380px;
+}
+#section_university_5 .omega .pix_builder_bg{
+    background-color: rgb(235,234,234);
+    height: 600px;
+    width: 427px;
+}
+#section_university_5 .omega .title-style{
+    font-size: 21px;
+}
+#section_university_5 .omega .text-style .pix_text{
+    color: rgb(189,189,189);
+}
+#section_university_5 .omega #contact_form{
+    float: bottom;
+    height: 500px;
+}
+
+
