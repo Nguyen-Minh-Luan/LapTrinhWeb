@@ -5,7 +5,7 @@ html , body{
     font-family: sans-serif,tahoma;
 }
 .container{
-    width: 1200px;
+    width: 1010px;
 }
 ul{
     list-style-type: none;
@@ -21,13 +21,13 @@ a{
     
 }
 #section_header_2_dark .container{
-    margin-left: 450px;
+    margin-left: 330px;
 }
 #section_header_2_dark .containerss{
     display: flex;
 }
 #section_header_2_dark .navbar-header img{
-    height: 35px;
+    height: 30px;
 }
 #section_header_2_dark .containerss .navbar-header{
     margin-top: 25px;
@@ -37,10 +37,10 @@ a{
 }
 #section_header_2_dark #navbar-collapse-02 .navbar-right{
     display: flex;
-    margin-left: 350px;
+    margin-left: 320px;
     gap: 43px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 32px;
 }
 
@@ -71,12 +71,139 @@ a{
 }
 /* ------------------------------------------------------------------- */
 #section_university_5{
-    background-color: rgb(160, 160, 160);
+}
+#section_university_5 .pix_builder_bg{
+    height: 630px;
 }
 #section_university_5 .container{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 260px;
+    margin-right: 260px;
+    /* height: 600px; */
+
 }
 #section_university_5 .container .sixteen{
     display: flex;
 }
+#section_university_5 .alpha{
+    margin-top: 120px;
+    margin-right: 30px;
+}
+#section_university_5 .alpha .zone_left{
+    margin-top: -70px;
+}
+#section_university_5 .alpha .icon_st img{
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 38px;
+}
+#section_university_5 .alpha .psingle_item{
+    display: flex;
+    margin-bottom: 10px;
+}
+#section_university_5 .alpha .title_st{
+    font-size: 22px;
+    margin-bottom: 5px;
+    /*font-weight: bold;*/
+}
+#section_university_5 .alpha .subject_st{
+    font-size: 17px;
+    font-weight: lighter;
+    color: rgb(189,189,189);
+    width: 380px;
+}
+#section_university_5 .omega .pix_builder_bg{
+    background-color: rgb(235,234,234);
+    margin-top: 35px;
+
+    border-radius: 2px;
+    height: 520px;
+    width: 427px;
+}
+#section_university_5 .omega .title-style{
+    padding-top: 40px;
+}
+#section_university_5 .omega .title-style .pix_text{
+    font-size: 23px;
+}
+#section_university_5 .omega .text-style .pix_text{
+    padding-top: 30px;
+    color: rgb(189,189,189);
+    font-size: 17px;
+}
+#section_university_5 .omega #contact_form{
+    display: grid;
+    height: 500px;
+}
+#section_university_5 .omega #contact_form{
+    display: grid;
+    height: 400px;
+}#section_university_5 .omega .pix_text{
+    height: 53px;
+    width:390px;
+    margin-left: 15px;
+ }
+#section_university_5 .omega .pix_text::placeholder{
+    font-size: 15px;
+}
+#section_university_5 .omega .pix_text{
+    font-size: 15px;
+}
+#section_university_5 .omega #submit_btn_6{
+    background-color: rgb(124,197,118);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+}
+/* ------------------------------------------------------------------- */
+#section_ecourse_7{
+    background-color: rgb(246,246,246);
+    height: 70px;
+}
+#section_ecourse_7 .container .bg_foot{
+    display: flex;
+    gap: 240px;
+}
+#section_ecourse_7 .container {
+    color: rgb(189,189,189);
+    margin-left: 180px;
+    margin-right: auto;
+    width: 1200px;
+}
+#section_ecourse_7 .alpha{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#section_ecourse_7 .alpha .pixfort_st{
+    color: rgb(99, 62, 149);
+    font-weight: bold;
+}
+#section_ecourse_7 .omega{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#section_ecourse_7 .omega .socbuttons{
+    
+    display: flex;
+    gap: 30px;
+}
+#section_ecourse_7 .omega .likes_st{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#section_ecourse_7 .omega .bottom-icons{
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    gap: 20px;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(232, 232, 232);
+}
+
+
+
