@@ -5,7 +5,7 @@ html , body{
     font-family: sans-serif,tahoma;
 }
 .container{
-    width: 1200px;
+    width: 1000 px;
 }
 ul{
     list-style-type: none;
@@ -21,13 +21,13 @@ a{
     
 }
 #section_header_2_dark .container{
-    margin-left: 450px;
+    margin-left: 230px
 }
 #section_header_2_dark .containerss{
     display: flex;
 }
 #section_header_2_dark .navbar-header img{
-    height: 35px;
+    height: 30px;
 }
 #section_header_2_dark .containerss .navbar-header{
     margin-top: 25px;
@@ -70,17 +70,22 @@ a{
     position: relative;
 }
 /* ------------------------------------------------------------------- */
-#section_university_5{
-    background-color: rgb(160, 160, 160);
-}
+
 #section_university_5 .container{
-    margin-left: 300px;
+    margin-left: 290px;
     margin-right: 300px;
 
 }
 #section_university_5 .container .sixteen{
     display: flex;
 }
+
+#section_university_5 .alpha .icon_st{
+}
+#section_university_5 .alpha .icon_st img{
+    height: 100px;
+    margin-right: 40px;
+ }
 #section_university_5 .alpha{
     margin-top: 120px;
     margin-right: 30px;
@@ -100,16 +105,21 @@ a{
     color: rgb(189,189,189);
     width: 380px;
 }
+
 #section_university_5 .omega .pix_builder_bg{
     background-color: rgb(235,234,234);
     height: 500px;
     width: 427px;
+    margin-top: 50px;
+    padding-top: 60px;  
+    margin-bottom: 70px;
 }
-#section_university_5 .omega .title-style{
-    font-size: 21px;
+#section_university_5 .omega .title-style .pix_text{
+    font-size: 24px;
 }
 #section_university_5 .omega .text-style .pix_text{
     color: rgb(189,189,189);
+    font-size: 16px;
 }
 #section_university_5 .omega #contact_form{
     display: grid;
@@ -123,13 +133,43 @@ a{
     width:390px;
     margin-left: 15px;
  }
+
 #section_university_5 .omega .pix_text::placeholder{
     font-size: 15px;
 }
-#section_university_5 .omega .pix_text{
-    font-size: 15px;
+#section_university_5 .omega .submit_btn{
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(124,197,118);
+    color: white;
+}
+/* ----------------------------------------------------------------- */
+#section_ecourse_7{
+    background-color: rgb(235, 235, 235);
 }
 
-
-
-
+#section_ecourse_7 .bg_foot{
+    color: rgb( 174,174,174);
+    display: flex;
+    gap : 280px;
+    align-items: center;
+    margin-left: 160px;
+}
+#section_ecourse_7 .pixfort_st{
+    color: rgb(98, 61, 145);
+    font-weight: bold;
+}
+#section_ecourse_7 .socbuttons{
+    display: flex;
+    align-items: center;
+}
+#section_ecourse_7 .socbuttons .bottom-icons{
+    display: flex;
+    gap: 20px;
+    background-color:rgb(219, 219, 219);
+    width: 130px;
+    height: 48px;
+    align-items: center;
+    margin-left: 40px;
+}
