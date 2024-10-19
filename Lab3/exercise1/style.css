@@ -1,0 +1,65 @@
+html,body,p,ul{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    width: 1200px;
+    min-height: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header ul{
+    height: 60px;
+    align-content: center;
+    border-bottom: #a70000 3px solid;
+    border-left: #a90000 5px solid;
+    -webkit-box-shadow: 0px 3px 13px -5px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 3px 13px -5px rgba(0,0,0,1);
+    box-shadow: 0px 3px 13px -5px rgba(0,0,0,1);
+}
+.header .menu>li:hover{
+    background-color: #a90000;
+    color: white;
+    height: 29px;
+}
+.header .menu>li{
+    float: left;
+    font-family: sans-serif,Tahoma;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 15px;
+    height: 29px;
+    position: relative;
+}
+.header .menu >li:hover .list1{
+    display: block;
+}
+.header .list1{
+    color: black;
+    list-style-type: none;
+    border: none;
+    position: absolute;
+    top: 100%;
+    margin-top: 3px;
+    left: 0;
+    display: none; 
+    border-bottom: black 3px solid;
+}
+.header .list1>li{
+    align-content: center;
+    border: none;
+    background-color: rgb(230,230,230);
+    color: black;
+    height: 60px;
+    position: relative;
+    list-style-type: none;
+    width: 200px;
+    border-bottom: rgb(152, 152, 152) 0.5px solid;
+}
+.header .list1>li:hover{
+    color: white;
+    background-color: #a90000;
+}
+
+
