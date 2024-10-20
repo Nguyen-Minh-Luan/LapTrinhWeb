@@ -1,0 +1,171 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label,
+span {
+    font-family: sans-serif, tahoma;
+    font-weight: 700;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.form-login-1 {
+    background-color: rgb(220, 220, 220);
+    height: 1000px;
+    align-content: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 780px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+span {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.container-username {
+    margin-left: 8%;
+    margin-bottom: 2%;
+    display: grid;
+    justify-content: center;
+    border: rgb(236, 236, 236) 2px solid;
+    background-color: rgb(245, 245, 245);
+    width: 690px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.username-label {
+    font-weight: 700;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+#username {
+    background-color: rgb(245, 245, 245);
+    font-size: 20px;
+    width: 650px;
+    height: 30px;
+    border: none;
+}
+
+#username::placeholder {
+    color: rgb(196, 196, 196);
+    font-size: 17px;
+    font-weight: 700;
+}
+#username:focus{
+    outline: none;
+}
+/* ------------------------------------------------------ */
+.email-phone {
+    display: flex;
+    gap: 5px;
+    width: 694px;
+    margin-left: 8%;
+    margin-bottom: 2%;
+}
+
+.container-email {
+    margin-right: 24px;
+    display: grid;
+    border: rgb(236, 236, 236) 2px solid;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    height: 70px;
+    width: 400px;
+    padding-left: 15px;
+
+}
+
+#email {
+    background-color: rgb(245, 245, 245);
+    height: 30px;
+    width: 360px;
+    border: none;
+    font-size: 20px;
+}
+#email:focus{
+    outline: none;
+}
+.container-phone {
+    display: grid;
+    border: rgb(236, 236, 236) 2px solid;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    height: 70px;
+    width: 290px;
+    justify-content: center;
+}
+
+#phonenumber {
+    background-color: rgb(245, 245, 245);
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    width: 250px;
+}
+#phonenumber:focus{
+    outline: none;
+}
+/* ---------------------------------------------------------- */
+.container-services {
+    margin-left: 8%;
+    margin-bottom: 2%;
+    display: grid;
+    justify-content: center;
+    border: rgb(236, 236, 236) 2px solid;
+    background-color: rgb(245, 245, 245);
+    width: 690px;
+    height: 70px;
+    border-radius: 10px;
+}
+.services-label{
+    font-size: 11px;
+}
+#services {
+    background-color: rgb(245, 245, 245);
+    font-size: 20px;
+    width: 650px;
+    height: 30px;
+}
+/* -------------------------------------------------------- */
+.container-message {
+    margin-left: 8%;
+    display: grid;
+    justify-content: center;
+    border: rgb(236, 236, 236) 2px solid;
+    background-color: rgb(245, 245, 245);
+    width: 690px;
+    height: 140px;
+    border-radius: 10px;
+}
+#message {
+    background-color: rgb(245, 245, 245);
+    font-size: 20px;
+    width: 650px;
+    height: 100px;
+    border: none;
+}
+#message::placeholder{
+    color: rgb(196, 196, 196);
+    font-size: 17px;
+    font-weight: 700;
+}
+#message:focus{
+    outline: none;
+}
