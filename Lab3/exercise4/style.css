@@ -1,0 +1,28 @@
+html , body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-login{
+    align-content: center;
+    width: 1480px;
+    height: 900px;
+    background-color: rgb(230,230,230);
+}
+label{
+    font-family: sans-serif,tahoma;
+    color: rgb(10, 196, 50);
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: white;
+    width: 500px;
+    height: 650px;
+}
+.account .title{
+}
