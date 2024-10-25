@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise1</title>
+    <script>
+        function change_color(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 240px;
+            padding-left: 100px;
+            width: 400px;
+            height: 100px;
+            border: solid 2px black;
+            background-color: blanchedalmond;
+            align-content: center ;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="con-01">
+        <button style="background-color: red; color: white;" id="red" onclick="change_color('red')">RED</button>
+        <button style="background-color: green; color: white" id="green" onclick="change_color('green')">GREEN</button>
+        <button style="background-color: rgb(1,200,255); color: white" id="blue"
+            onclick="change_color('rgb(1,200,255)')">BLUE</button>
+        <button style="background-color: black; color: white" id="black" onclick="change_color('black')">BLACK</button>
+        <button style="background-color: white; color: black" id="white" onclick="change_color('white')">WHITE</button>
+    </div>
+</body>
+
+</html>
