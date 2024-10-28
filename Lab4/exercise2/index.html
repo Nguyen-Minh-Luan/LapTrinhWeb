@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function Quadratic_Equation() {
+            let a = document.getElementById("a").value;
+            let b = document.getElementById("b").value;
+            let c = document.getElementById("c").value;
+            let resultLabel = document.getElementById("result_1");
+            let delta = (b * b) - (4 * (a * c));
+            let x1;
+            let x2;
+            if (delta < 0) {
+                resultLabel.textContent = "Kết quả : " + "Phương trình vô nghiệm";
+            }
+            if (delta == 0) {
+                // x1 = -b / (2 * a);
+                // resultLabel.textContent = "Kết quả : " + "phương trình có nghiệm kép" + " x1 = x2 = " + x1;
+                resultLabel.textContent = "Kết quả : " + "phương trình có nghiệm kép";
+            }
+            if (delta > 0) {
+                x1 = (-b + Math.sqrt(delta)) / (2 * a);
+                x2 = (  -b - Math.sqrt(delta)) / (2 * a);
+                resultLabel.textContent = "Kết quả : " + "phương trình có 2 nghiệm phân biệt: " + "x1 = " + x1 + "; x2 = " + x2
+                // resultLabel.textContent = "Kết quả : " + "phương trình có 2 nghiệm phân biệt";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <input type="number" id="a">
+    <input type="number" id="b">
+    <input type="number" id="c">
+    <button onclick="Quadratic_Equation()" id="solve">Giải</button>
+    <labe id="result_1">Kết quả : </label>
+</body>
+
+</html>
